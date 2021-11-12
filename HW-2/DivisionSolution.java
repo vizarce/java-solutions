@@ -11,11 +11,11 @@ public class DivisionSolution {
 			counter++;
 		}
 		if (counter <= Integer.MIN_VALUE) {
-            counter = Integer.MIN_VALUE;
-        }
-        if (counter >= Integer.MAX_VALUE) {
-            counter = Integer.MAX_VALUE - 1;
-        }
+            		counter = Integer.MIN_VALUE;
+        	}
+        	if (counter >= Integer.MAX_VALUE) {
+            		counter = Integer.MAX_VALUE - 1;
+       		}
 		int x;
 		if ((dividend < 0) & (divisor < 0)) {
 			x = counter;
